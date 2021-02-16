@@ -55,7 +55,7 @@ public class Main {
 	}
 	public static void testFactory()
 	{
-		List<Personne> liste=new ArrayList();
+		ArrayList<Personne> liste=new ArrayList();
 		for (int i=0;i<10;i++)
 		{
 			Personne p=PersonneFactory.getPersonne(buildRandomString(5), buildRandomString(5), buildRandomString(5), "Etudiant");
